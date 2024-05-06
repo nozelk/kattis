@@ -13,12 +13,12 @@ def bottles_of_beer(n, beverage):
         lyrics.append("")
     return "\n".join(lyrics)
 
-# Branje vhodnih podatkov
+
 n = int(input())
 beverage = input().strip()
 
-# Generiranje besedila pesmi
+
 besedilo_pesmi = bottles_of_beer(n, beverage)
 
-# Izpis besedila pesmi
+
 print(besedilo_pesmi,end="")
